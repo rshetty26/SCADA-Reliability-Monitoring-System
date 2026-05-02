@@ -1,17 +1,17 @@
 # SCADA Reliability Monitoring System
 
-A simulated SCADA operations environment focused on real-time monitoring, threshold-based alarming, failure simulation, and system reliability — built to reflect how real industrial control systems are operated.
+A simulated SCADA operations environment focused on real-time monitoring, threshold-based alarming, failure simulation, and system reliability.
 
 ---
 
 ## What it does
 
-- **Live sensor monitoring** — 5 field instruments (pressure, temperature, flow) streaming data every second over WebSocket
-- **Alarm engine** — evaluates readings against configurable thresholds; raises WARNING and CRITICAL alarms automatically
-- **Failure simulation** — inject real-world faults: comms offline, stale data, and value spikes; observe alarm propagation in real time
-- **Event log** — timestamped timeline of all alarms, failures, recoveries, and operator acknowledgements
-- **System health** — overall status (HEALTHY / DEGRADED / CRITICAL) driven by sensor and alarm state
-- **Trend chart** — live rolling time-series for any selected sensor
+- **Live sensor monitoring** - 5 field instruments (pressure, temperature, flow) streaming data every second over WebSocket
+- **Alarm engine** - evaluates readings against configurable thresholds; raises WARNING and CRITICAL alarms automatically
+- **Failure simulation** - inject real-world faults: comms offline, stale data, and value spikes; observe alarm propagation in real time
+- **Event log** - timestamped timeline of all alarms, failures, recoveries, and operator acknowledgements
+- **System health** - overall status (HEALTHY / DEGRADED / CRITICAL) driven by sensor and alarm state
+- **Trend chart** - live rolling time-series for any selected sensor
 
 ---
 
@@ -20,9 +20,9 @@ A simulated SCADA operations environment focused on real-time monitoring, thresh
 ```
 frontend/index.html     Single-page dashboard (Tailwind CSS + Chart.js, no build step)
 backend/
-  main.py               FastAPI server — REST API + WebSocket broadcast loop
-  sensors.py            Sensor simulator — random walk with failure injection
-  alarms.py             Alarm evaluation engine — threshold + status-based
+  main.py               FastAPI server - REST API + WebSocket broadcast loop
+  sensors.py            Sensor simulator - random walk with failure injection
+  alarms.py             Alarm evaluation engine - threshold + status-based
   database.py           SQLite persistence (sensor readings, alarms, events)
   models.py             Pydantic models
 data/scada.db           SQLite database (auto-created on first run)
@@ -34,7 +34,7 @@ data/scada.db           SQLite database (auto-created on first run)
 
 **Requirements:** Python 3.11+
 
-Double-click `run.bat` — it installs all dependencies and opens the dashboard at `http://localhost:8000` automatically.
+Double-click `run.bat` - it installs all dependencies and opens the dashboard at `http://localhost:8000` automatically.
 
 To stop the server, press `Ctrl+C` in the terminal window.
 
