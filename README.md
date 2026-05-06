@@ -7,19 +7,19 @@ A simulated SCADA operations environment focused on real-time monitoring, thresh
 ### Healthy System State
 
 <p align="center">
-  <img src="./images/healthy-dashboard.png" width="1000"/>
+  <img src="./images/1.png" width="1000"/>
 </p>
 
 ### Critical Alarm State
 
 <p align="center">
-  <img src="./images/critical-dashboard.png" width="1000"/>
+  <img src="./images/3.png" width="1000"/>
 </p>
 
 ### Trend Monitoring + Failure Injection
 
 <p align="center">
-  <img src="./images/trend-view.png" width="1000"/>
+  <img src="./images/2.png" width="1000"/>
 </p>
 
 ---
