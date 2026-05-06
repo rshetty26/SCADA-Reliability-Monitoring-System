@@ -2,6 +2,26 @@
 
 A simulated SCADA operations environment focused on real-time monitoring, threshold-based alarming, failure simulation, and system reliability.
 
+## Demo Screenshots
+
+### Healthy System State
+
+<p align="center">
+  <img src="images/healthy-dashboard.png" width="1000"/>
+</p>
+
+### Critical Alarm State
+
+<p align="center">
+  <img src="images/critical-dashboard.png" width="1000"/>
+</p>
+
+### Trend Monitoring + Failure Injection
+
+<p align="center">
+  <img src="images/trend-view.png" width="1000"/>
+</p>
+
 ---
 
 ## What it does
